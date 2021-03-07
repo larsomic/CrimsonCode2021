@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2021-03-06T11:03:42.919-08:00
-  initializedAtString: 2021-03-06T11:03:42.919-08:00
+  lastUpdatedAtString: 2021-03-06T15:04:26.580-08:00
+  initializedAtString: 2021-03-06T14:01:03.672-08:00
   currentGitRemote:
     name: origin
     url: https://github.com/larsomic/CrimsonCode2021.git
@@ -25,13 +25,13 @@ MonoBehaviour:
     token: 
   currentGitBranch:
     name: master
-    tracking: 
+    tracking: origin/master
   currentConfigBranch:
     name: master
     remote:
-      name: 
-      url: 
-    trackingBranch: 
+      name: origin
+      url: https://github.com/larsomic/CrimsonCode2021.git
+    trackingBranch: master
   currentConfigRemote:
     name: origin
     url: https://github.com/larsomic/CrimsonCode2021.git

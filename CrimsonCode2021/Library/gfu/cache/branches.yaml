@@ -13,10 +13,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2021-03-06T11:03:45.238-08:00
-  initializedAtString: 2021-03-06T11:03:45.182-08:00
-  localBranches: []
-  remoteBranches: []
+  lastUpdatedAtString: 2021-03-06T15:13:20.139-08:00
+  initializedAtString: 2021-03-06T14:13:19.569-08:00
+  localBranches:
+  - name: master
+    tracking: origin/master
+  remoteBranches:
+  - name: origin/master
+    tracking: '[None]'
   remotes:
   - name: origin
     url: https://github.com/larsomic/CrimsonCode2021.git
@@ -26,12 +30,27 @@ MonoBehaviour:
     function: 0
     token: 
   localConfigBranches:
-    keys: []
-    values: []
+    keys:
+    - master
+    values:
+    - name: master
+      remote:
+        name: origin
+        url: https://github.com/larsomic/CrimsonCode2021.git
+      trackingBranch: master
   remoteConfigBranches:
-    keys: []
-    subKeys: []
-    subKeyValues: []
+    keys:
+    - origin
+    subKeys:
+    - Values:
+      - master
+    subKeyValues:
+    - Values:
+      - name: master
+        remote:
+          name: origin
+          url: https://github.com/larsomic/CrimsonCode2021.git
+        trackingBranch: 
   configRemotes:
     keys:
     - origin
