@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -45,10 +45,10 @@ MonoBehaviour:
     y: 30
     width: 1536
     height: 732
-  m_MinSize: {x: 679, y: 492}
-  m_MaxSize: {x: 14002, y: 14042}
+  m_MinSize: {x: 677, y: 342}
+  m_MaxSize: {x: 12002, y: 8042}
   vertical: 0
-  controlID: 81
+  controlID: 78
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -64,12 +64,12 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1059
+    x: 1054
     y: 0
-    width: 477
+    width: 482
     height: 732
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -94,10 +94,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 348
-    height: 443
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+    width: 200
+    height: 461
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -113,23 +113,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
+  m_Name: ConsoleWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 443
-    width: 1059
-    height: 289
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 14}
+    y: 461
+    width: 1054
+    height: 271
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 14}
   - {fileID: 19}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -216,12 +216,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1059
+    width: 1054
     height: 732
-  m_MinSize: {x: 403, y: 492}
-  m_MaxSize: {x: 10001, y: 14042}
+  m_MinSize: {x: 402, y: 342}
+  m_MaxSize: {x: 8002, y: 8042}
   vertical: 1
-  controlID: 82
+  controlID: 79
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -241,12 +241,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1059
-    height: 443
-  m_MinSize: {x: 403, y: 221}
-  m_MaxSize: {x: 8003, y: 4021}
+    width: 1054
+    height: 461
+  m_MinSize: {x: 402, y: 221}
+  m_MaxSize: {x: 8002, y: 4021}
   vertical: 0
-  controlID: 57
+  controlID: 59
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -257,23 +257,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: SceneView
+  m_Name: GameView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 348
+    x: 200
     y: 0
-    width: 711
-    height: 443
+    width: 854
+    height: 461
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 17}
+  m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 17}
   - {fileID: 18}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -294,9 +294,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1060
+    x: 1059.2001
     y: 72
-    width: 475
+    width: 476
     height: 711
   m_ViewDataDictionary: {fileID: 0}
   progressMessageClearTime: -1
@@ -307,8 +307,8 @@ MonoBehaviour:
   currentStatusEntriesHasUpdate: 1
   repositoryProgressHasUpdate: 1
   appManagerProgressHasUpdate: 1
-  changeTab: 3
-  activeTab: 3
+  changeTab: 5
+  activeTab: 5
   initProjectView:
     hasCompletedInitialCheck: 0
     isUserDataPresent: 0
@@ -391,9 +391,9 @@ MonoBehaviour:
     localBranches: []
     remoteBranches: []
   changesView:
-    currentBranchHasUpdate: 1
-    currentStatusEntriesHasUpdate: 1
-    currentLocksHasUpdate: 1
+    currentBranchHasUpdate: 0
+    currentStatusEntriesHasUpdate: 0
+    currentLocksHasUpdate: 0
     commitBody: AS
     commitMessage: Adding temp
     currentBranch: '[master]'
@@ -405,8 +405,6 @@ MonoBehaviour:
       folders:
         keys:
         - CrimsonCode2021
-        - CrimsonCode2021\Assets
-        - CrimsonCode2021\Assets\Scenes
         - CrimsonCode2021\Library
         - CrimsonCode2021\Library\Collab
         - CrimsonCode2021\Library\gfu
@@ -422,43 +420,7 @@ MonoBehaviour:
           isHidden: 0
           isActive: 0
           treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: CrimsonCode2021\Assets
-          label: Assets
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: CrimsonCode2021\Assets\Scenes
-          label: Scenes
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
+          checkState: 0
           isLocked: 0
           gitStatusEntry:
             path: 
@@ -476,7 +438,7 @@ MonoBehaviour:
           isHidden: 0
           isActive: 0
           treeIsCheckable: 1
-          checkState: 1
+          checkState: 0
           isLocked: 0
           gitStatusEntry:
             path: 
@@ -494,7 +456,7 @@ MonoBehaviour:
           isHidden: 0
           isActive: 0
           treeIsCheckable: 1
-          checkState: 1
+          checkState: 0
           isLocked: 0
           gitStatusEntry:
             path: 
@@ -512,7 +474,7 @@ MonoBehaviour:
           isHidden: 0
           isActive: 0
           treeIsCheckable: 1
-          checkState: 1
+          checkState: 0
           isLocked: 0
           gitStatusEntry:
             path: 
@@ -530,7 +492,7 @@ MonoBehaviour:
           isHidden: 0
           isActive: 0
           treeIsCheckable: 1
-          checkState: 1
+          checkState: 0
           isLocked: 0
           gitStatusEntry:
             path: 
@@ -548,7 +510,7 @@ MonoBehaviour:
           isHidden: 0
           isActive: 0
           treeIsCheckable: 1
-          checkState: 1
+          checkState: 0
           isLocked: 0
           gitStatusEntry:
             path: 
@@ -594,7 +556,7 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 1
+        checkState: 0
         isLocked: 0
         gitStatusEntry:
           path: 
@@ -603,60 +565,6 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: CrimsonCode2021\Assets
-        label: Assets
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 1
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: CrimsonCode2021\Assets\Scenes
-        label: Scenes
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 1
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: CrimsonCode2021\Assets\Scenes\SampleScene.unity
-        label: SampleScene.unity
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 1
-        isLocked: 0
-        gitStatusEntry:
-          path: CrimsonCode2021\Assets\Scenes\SampleScene.unity
-          fullPath: C:\Users\mike2\Desktop\CrimsonCode2021\CrimsonCode2021\Assets\Scenes\SampleScene.unity
-          projectPath: Assets\Scenes\SampleScene.unity
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
       - path: CrimsonCode2021\Library
         label: Library
         level: 1
@@ -666,7 +574,7 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 1
+        checkState: 0
         isLocked: 0
         gitStatusEntry:
           path: 
@@ -684,7 +592,7 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 1
+        checkState: 0
         isLocked: 0
         gitStatusEntry:
           path: CrimsonCode2021\Library\ArtifactDB
@@ -702,7 +610,7 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 1
+        checkState: 0
         isLocked: 0
         gitStatusEntry:
           path: 
@@ -720,7 +628,7 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 1
+        checkState: 0
         isLocked: 0
         gitStatusEntry:
           path: CrimsonCode2021\Library\Collab\CollabSnapshot_5cdbbe7b-3e49-4351-ac75-5460b93a7f01.txt
@@ -738,7 +646,7 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 1
+        checkState: 0
         isLocked: 0
         gitStatusEntry:
           path: CrimsonCode2021\Library\EditorInstance.json
@@ -756,7 +664,7 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 1
+        checkState: 0
         isLocked: 0
         gitStatusEntry:
           path: 
@@ -774,7 +682,7 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 1
+        checkState: 0
         isLocked: 0
         gitStatusEntry:
           path: 
@@ -792,7 +700,7 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 1
+        checkState: 0
         isLocked: 0
         gitStatusEntry:
           path: CrimsonCode2021\Library\gfu\cache\gitlocks.yaml
@@ -810,7 +718,7 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 1
+        checkState: 0
         isLocked: 0
         gitStatusEntry:
           path: CrimsonCode2021\Library\gfu\cache\gitstatusentries.yaml
@@ -828,7 +736,7 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 1
+        checkState: 0
         isLocked: 0
         gitStatusEntry:
           path: CrimsonCode2021\Library\gfu\cache\gittrackingstatus.yaml
@@ -846,7 +754,7 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 1
+        checkState: 0
         isLocked: 0
         gitStatusEntry:
           path: CrimsonCode2021\Library\gfu\cache\repoinfo.yaml
@@ -864,7 +772,7 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 1
+        checkState: 0
         isLocked: 0
         gitStatusEntry:
           path: CrimsonCode2021\Library\SceneVisibilityState.asset
@@ -882,7 +790,7 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 1
+        checkState: 0
         isLocked: 0
         gitStatusEntry:
           path: CrimsonCode2021\Library\shadercompiler-UnityShaderCompiler.exe0.log
@@ -900,7 +808,7 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 1
+        checkState: 0
         isLocked: 0
         gitStatusEntry:
           path: CrimsonCode2021\Library\SourceAssetDB
@@ -918,7 +826,7 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 1
+        checkState: 0
         isLocked: 0
         gitStatusEntry:
           path: 
@@ -936,7 +844,7 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 1
+        checkState: 0
         isLocked: 0
         gitStatusEntry:
           path: CrimsonCode2021\Temp\UnityLockfile
@@ -965,12 +873,6 @@ MonoBehaviour:
           indexStatus: 0
           workTreeStatus: 0
     gitStatusEntries:
-    - path: CrimsonCode2021\Assets\Scenes\SampleScene.unity
-      fullPath: C:\Users\mike2\Desktop\CrimsonCode2021\CrimsonCode2021\Assets\Scenes\SampleScene.unity
-      projectPath: Assets\Scenes\SampleScene.unity
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
     - path: CrimsonCode2021\Library\ArtifactDB
       fullPath: C:\Users\mike2\Desktop\CrimsonCode2021\CrimsonCode2021\Library\ArtifactDB
       projectPath: Library\ArtifactDB
@@ -1037,15 +939,15 @@ MonoBehaviour:
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    changedFilesText: 12 changed files
+    changedFilesText: 11 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2021-03-06T15:04:26.580-08:00
+      updatedTimeString: 2021-03-06T17:18:51.925-08:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2021-03-06T16:59:12.531-08:00
+      updatedTimeString: 2021-03-06T17:18:55.963-08:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      updatedTimeString: 2021-03-06T17:18:51.950-08:00
       cacheType: 7
   historyView:
     currentLogHasUpdate: 0
@@ -1123,7 +1025,7 @@ MonoBehaviour:
       changingManually: 0
     hasRemote: 1
     lastCurrentRemoteChangedEvent:
-      updatedTimeString: 2021-03-06T11:03:42.919-08:00
+      updatedTimeString: 2021-03-07T09:48:42.332-08:00
       cacheType: 1
     metricsEnabled: 1
     newRepositoryRemoteUrl: https://github.com/larsomic/CrimsonCode2021.git
@@ -1137,7 +1039,7 @@ MonoBehaviour:
       newGitEmail: michael.j.larson@wsu.edu
       needsSaving: 0
       lastCheckUserChangedEvent:
-        updatedTimeString: 2021-03-06T11:08:12.037-08:00
+        updatedTimeString: 2021-03-07T09:49:19.432-08:00
         cacheType: 8
     webTimeout: 10000
     gitTimeout: 10000
@@ -54244,13 +54146,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2021-03-06T11:17:04.973-08:00
+    updatedTimeString: 2021-03-06T18:21:23.538-08:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2021-03-06T11:13:10.080-08:00
+    updatedTimeString: 2021-03-06T18:21:24.322-08:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2021-03-06T11:24:15.011-08:00
+    updatedTimeString: 2021-03-06T18:21:27.663-08:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -54268,10 +54170,10 @@ MonoBehaviour:
     m_Text: Fetch
     m_Image: {fileID: 0}
     m_Tooltip: 
-  repositoryProgressValue: 0
-  repositoryProgressMessage: 
-  appManagerProgressValue: 0
-  appManagerProgressMessage: 
+  repositoryProgressValue: 0.5
+  repositoryProgressMessage: Listing changed files...
+  appManagerProgressValue: 1
+  appManagerProgressMessage: Initialized
   connections: []
   primaryConnectionUsername: larsomic
 --- !u!114 &13
@@ -54299,7 +54201,7 @@ MonoBehaviour:
     width: 476
     height: 711
   m_ViewDataDictionary: {fileID: 0}
-  m_InitialOpenURL: https://public-cdn.cloud.unity3d.com/editor/production/cloud/hub/#/cloud-menu
+  m_InitialOpenURL: https://public-cdn.cloud.unity3d.com/editor/production/cloud/hub
   m_GlobalObjectTypeName: 
   m_RegisteredViewURLs:
   - https://public-cdn.cloud.unity3d.com/editor/production/cloud/hub
@@ -54329,9 +54231,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 515.2
-    width: 1058
-    height: 268
+    y: 533.2
+    width: 1053
+    height: 250
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -54348,18 +54250,18 @@ MonoBehaviour:
     m_Folders:
     - Assets/Scenes/Scripts
   m_ViewMode: 1
-  m_StartGridSize: 64
+  m_StartGridSize: 50
   m_LastFolders:
   - Assets/Scenes/Scripts
-  m_LastFoldersGridSize: -1
+  m_LastFoldersGridSize: 50
   m_LastProjectPath: C:\Users\mike2\Desktop\CrimsonCode2021\CrimsonCode2021
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 8a3b0000
-    m_LastClickedID: 15242
-    m_ExpandedIDs: 000000007e3b0000843b000000ca9a3b
+    scrollPos: {x: 0, y: 78}
+    m_SelectedIDs: 144d0000
+    m_LastClickedID: 19732
+    m_ExpandedIDs: 00000000f43d0000a04a000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -54375,7 +54277,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 5}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -54387,7 +54289,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000007e3b0000
+    m_ExpandedIDs: 00000000f43d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -54415,7 +54317,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c623000000000000
+    m_ExpandedInstanceIDs: c623000000000000603d0000543c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -54440,7 +54342,7 @@ MonoBehaviour:
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
     m_ScrollPosition: {x: 0, y: 0}
-    m_GridSize: 64
+    m_GridSize: 50
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 115
 --- !u!114 &15
@@ -54464,9 +54366,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1059.2001
+    x: 1054
     y: 72
-    width: 476
+    width: 481
     height: 711
   m_ViewDataDictionary: {fileID: 0}
   m_OpenAddComponentMenu: 0
@@ -54504,29 +54406,29 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 72
-    width: 347
-    height: 422
+    width: 199
+    height: 440
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: a63c0000
-      m_LastClickedID: 15526
-      m_ExpandedIDs: 76f9ffff62fbfffff4ffffff943c00009e3c0000bc3c0000
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 3888ffff4c88ffff3489ffffc28bffffb68cffffb292ffff2e95ffffe698ffff8c9bffff769fffffaca0ffffeca1ffffb0a3ffffc0a4ffff10a5ffffb8a5ffff80a7ffffeaa8ffff92a9ffffc2aaffff6aabfffffcb1ffff02b4ffff0ab4ffff44b6ffffbcb9ffffe6c9ffff1acaffff76deffff96e0ffff66e1ffff6ae1ffff62fbffff000000004b00000020560000e662000078780000c8780000047a0000a0800000289c2541
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: RoomOne
+        m_OriginalName: RoomOne
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 32874
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 4}
       m_SearchString: 
@@ -54557,10 +54459,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 348
+    x: 200
     y: 72
-    width: 709
-    height: 422
+    width: 852
+    height: 440
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: 07042f9d109002e4f8039e9a40748579
@@ -54572,9 +54474,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 17.569418, y: 38.698177, z: -10.219348}
+    m_Target: {x: 2255.56, y: 909.8014, z: -197.94812}
     speed: 2
-    m_Value: {x: 17.569418, y: 38.698177, z: -10.219348}
+    m_Value: {x: 2255.56, y: 909.8014, z: -197.94812}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -54610,13 +54512,13 @@ MonoBehaviour:
       m_Size: {x: 1, y: 1}
     zGrid:
       m_Fade:
-        m_Target: 1
+        m_Target: 0
         speed: 2
         m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 1, y: 1}
-    m_ShowGrid: 1
+    m_ShowGrid: 0
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
@@ -54624,16 +54526,16 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 57.913708
+    m_Target: 619.11456
     speed: 2
-    m_Value: 57.913708
+    m_Value: 619.11456
   m_Ortho:
     m_Target: 1
     speed: 2
     m_Value: 1
   m_CameraSettings:
     m_Speed: 1
-    m_SpeedNormalized: 0.5
+    m_SpeedNormalized: 0.49748743
     m_SpeedMin: 0.01
     m_SpeedMax: 2
     m_EasingEnabled: 1
@@ -54672,10 +54574,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 348
+    x: 200
     y: 72
-    width: 709
-    height: 422
+    width: 852
+    height: 440
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewNames: []
   m_SerializedViewValues: []
@@ -54685,7 +54587,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 709, y: 401}
+  m_TargetSize: {x: 852, y: 419}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -54700,10 +54602,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -141.8
-    m_HBaseRangeMax: 141.8
-    m_VBaseRangeMin: -80.200005
-    m_VBaseRangeMax: 80.200005
+    m_HBaseRangeMin: -170.40001
+    m_HBaseRangeMax: 170.40001
+    m_VBaseRangeMin: -83.8
+    m_VBaseRangeMax: 83.8
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -54712,7 +54614,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -54721,23 +54623,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 709
-      height: 401
+      width: 852
+      height: 419
     m_Scale: {x: 2, y: 2}
-    m_Translation: {x: 354.5, y: 200.5}
+    m_Translation: {x: 426, y: 209.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -177.25
-      y: -100.25
-      width: 354.5
-      height: 200.5
+      x: -213
+      y: -104.75
+      width: 426
+      height: 209.5
     m_MinimalGUI: 1
   m_defaultScale: 2
-  m_LastWindowPixelSize: {x: 1772.5, y: 1055}
+  m_LastWindowPixelSize: {x: 2130, y: 1100}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -54765,7 +54667,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 515.2
-    width: 1058
-    height: 268
+    y: 533.2
+    width: 1053
+    height: 250
   m_ViewDataDictionary: {fileID: 0}

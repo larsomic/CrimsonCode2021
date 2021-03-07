@@ -36,14 +36,46 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\AgoraEngine\Demo\ButtonHandler.cs" />
+     <Compile Include="Assets\AgoraEngine\Demo\TestHelloUnityVideo.cs" />
+     <Compile Include="Assets\AgoraEngine\Demo\TestHome.cs" />
+     <Compile Include="Assets\AgoraEngine\Demo\UIElementDragger.cs" />
+     <Compile Include="Assets\AgoraEngine\Scripts\AgoraGamingSDK\AgoraCallback.cs" />
+     <Compile Include="Assets\AgoraEngine\Scripts\AgoraGamingSDK\AgoraChannel.cs" />
+     <Compile Include="Assets\AgoraEngine\Scripts\AgoraGamingSDK\AgoraChannelCallback.cs" />
+     <Compile Include="Assets\AgoraEngine\Scripts\AgoraGamingSDK\AgoraEnums.cs" />
+     <Compile Include="Assets\AgoraEngine\Scripts\AgoraGamingSDK\AgoraGamingRtcEngine.cs" />
+     <Compile Include="Assets\AgoraEngine\Scripts\AgoraGamingSDK\AudioEffectManager.cs" />
+     <Compile Include="Assets\AgoraEngine\Scripts\AgoraGamingSDK\deviceManager\AudioPlaybackDeviceManager.cs" />
+     <Compile Include="Assets\AgoraEngine\Scripts\AgoraGamingSDK\deviceManager\AudioRecordingDeviceManager.cs" />
+     <Compile Include="Assets\AgoraEngine\Scripts\AgoraGamingSDK\deviceManager\VideoDeviceManager.cs" />
+     <Compile Include="Assets\AgoraEngine\Scripts\AgoraGamingSDK\native\IAgoraGamingRtcEngineNative.cs" />
+     <Compile Include="Assets\AgoraEngine\Scripts\AgoraGamingSDK\observer\MetaDataObserver.cs" />
+     <Compile Include="Assets\AgoraEngine\Scripts\AgoraGamingSDK\observer\PacketObserver.cs" />
+     <Compile Include="Assets\AgoraEngine\Scripts\AgoraGamingSDK\rawData\AudioRawDataManager.cs" />
+     <Compile Include="Assets\AgoraEngine\Scripts\AgoraGamingSDK\rawData\VideoRawDataManager.cs" />
+     <Compile Include="Assets\AgoraEngine\Scripts\AgoraGamingSDK\tools\AgoraCallbackObject.cs" />
+     <Compile Include="Assets\AgoraEngine\Scripts\AgoraGamingSDK\tools\AgoraCallbackQueue.cs" />
+     <Compile Include="Assets\AgoraEngine\Scripts\AgoraGamingSDK\tools\AgoraLog.cs" />
+     <Compile Include="Assets\AgoraEngine\Scripts\AgoraGamingSDK\videoRender\VideoRender.cs" />
+     <Compile Include="Assets\AgoraEngine\Scripts\AgoraGamingSDK\videoRender\VideoSurface.cs" />
+     <Compile Include="Assets\Scenes\Scripts\AgoraChat.cs" />
+     <Compile Include="Assets\Scenes\Scripts\CameraController.cs" />
      <Compile Include="Assets\Scenes\Scripts\CameraScript.cs" />
      <Compile Include="Assets\Scenes\Scripts\Client.cs" />
      <Compile Include="Assets\Scenes\Scripts\ClientHandle.cs" />
      <Compile Include="Assets\Scenes\Scripts\ClientSend.cs" />
+     <Compile Include="Assets\Scenes\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scenes\Scripts\Packet.cs" />
+     <Compile Include="Assets\Scenes\Scripts\PlayerController.cs" />
+     <Compile Include="Assets\Scenes\Scripts\PlayerManager.cs" />
+     <Compile Include="Assets\Scenes\Scripts\Player_Animation.cs" />
      <Compile Include="Assets\Scenes\Scripts\ThreadManager.cs" />
      <Compile Include="Assets\Scenes\Scripts\UIManager.cs" />
-     <Compile Include="Assets\Walk.cs" />
+     <Compile Include="Assets\Scenes\Scripts\UpdatedAgora.cs" />
+     <Compile Include="Assets\Scenes\Scripts\da_CameraMovement.cs" />
+     <Compile Include="Assets\Scenes\Scripts\da_TriggerRoom.cs" />
+     <None Include="Assets\AgoraEngine\Plugins\Android\AgoraRtcEngineKit.plugin\AndroidManifest.xml" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

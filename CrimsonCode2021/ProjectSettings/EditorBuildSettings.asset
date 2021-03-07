@@ -5,10 +5,22 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Menu-Peter.unity
     guid: 55e1438d1651048f687ae55618a20341
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Game-Peter.unity
     guid: 21b431fa610774e14a3a6a4d1894e666
+  - enabled: 0
+    path: Assets/Scenes/SampleScene.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 0
+    path: Assets/Scenes/Menu-Peter.unity
+    guid: 55e1438d1651048f687ae55618a20341
+  - enabled: 0
+    path: Assets/Scenes/Game-Peter.unity
+    guid: 21b431fa610774e14a3a6a4d1894e666
+  - enabled: 1
+    path: Assets/Scenes/AgoraVideoScene.unity
+    guid: f83912fd7634e83498979eb10f04b1df
   m_configObjects: {}
